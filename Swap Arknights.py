@@ -89,7 +89,7 @@ def load_or_prompt_paths():
         prompts = [
             ("tc_exe", "Select the Arknights TC executable to intercept (The Hypergryph one) (e.g., GRYPHLINK\\games\\Arknights_TC\\Arknights.exe)", tc_path),
             ("en_exe", "Select the Arknights EN executable to launch (The Yostar one) (e.g., YostarGames\\Arknights_EN\\Arknights.exe)", en_path),
-            ("yostar_launcher_exe", "Select the Yostar Launcher executable (To be able to close the HG Launcher once the swap has been occured) (e.g., Arknights_EN_Gamelauncher.exe)", yostar_path)
+            ("yostar_launcher_exe", "Select the Yostar Launcher executable (To be able to update when big update aren't managed directly in game) (e.g., Arknights_EN_Gamelauncher.exe)", yostar_path)
         ]
         
         if "Paths" not in config:
